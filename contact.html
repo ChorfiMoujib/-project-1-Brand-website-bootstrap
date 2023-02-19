@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <link rel="stylesheet" type="text/css" href="C:\Users\Fury\Desktop\html\css\style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+
+
+ <style>
+ 
+ body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #cfcfcf;
+  }
+  
+  
+  
+  
+  
+  header nav ul li a:hover,
+  header nav ul li a.active {
+    color: #fff;
+    background-color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 36px;
+    color: #333;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    border-radius: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #666;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #615151;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px gray;
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 70%;
+  }
+  
+  .card p {
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #000000;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+  font-family: 'Times New Roman';
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 9%;
+  letter-spacing: 2px;
+}
+
+.content .cn{
+  width: 160px;
+  height: 40px;
+  background: #ff7200;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .4s ease;
+  
+}
+
+.content .cn a{
+  text-decoration: none;
+  color: #000;
+  transition: .3s ease;
+}
+.content span{
+  color: #ff7200;
+  font-size: 30px
+}header {
+  background-color: #000;
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #6c48a7;
+  color: #fff;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content li a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}</style>
+
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown">
+              <a href="photogallery.html">Photo Gallery</a>
+              <ul class="dropdown-content">
+                <li><a href="landscape.html">Landscape</a></li>
+                <li><a href="wedding.html">Wedding</a></li>
+                <li><a href="portrait.html">Portrait</a></li>
+              </ul>
+            </li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+  <h1>Get in Touch with Our Photography Brand</h1>
+  <form action="http://vip.groupehn.com:20003/html/infospost.php" method="post">
+    <label for="lastname">Last Name:</label>
+    <input class="yourclass" id="lastname" type="text" name="lastname" />
+    <br />
+    <label for="firstname">First Name:</label>
+    <input class="yourclass" id="firstname" type="text" name="firstname" />
+    <br />
+    <label for="email">Email:</label>
+    <input class="yourclass" id="mail" type="email" name="email" placeholder="yourmail@yahoo.com" />
+    <br />
+    <label for="request">Message:</label>
+    <textarea class="yourclass" name="request" id="request" cols="66" rows="10"></textarea>
+    <br />
+    <label for="country">Country:</label>
+    <select class="yourclass" name="country" id="country">
+      <option value="">Please select a country</option>
+      <option value="USA">United States</option>
+          <option value="CAN">Canada</option>
+          <option value="MEX">Mexico</option>
+          <option value="GBR">United Kingdom</option>
+          <option value="DEU">Germany</option>
+          <option value="FRA">France</option>
+          <option value="ESP">Spain</option>
+          <option value="ITA">Italy</option>
+          <option value="JPN">Japan</option>
+          <option value="CHN">China</option>
+          <option value="IND">India</option>
+          <option value="BRA">Brazil</option>
+          <option value="ARG">Argentina</option>
+    </select>
+    <br />
+    <input type="submit" value="Submit">
+  </form>
+
+  <script>
+    var dropdown = document.querySelector(".dropdown");
+    var dropdownContent = document.querySelector(".dropdown-content");
+
+    dropdown.addEventListener("click", function() {
+      dropdownContent.classList.toggle("show");
+    });
+  </script>
+  
+  
+</body>
+</html>

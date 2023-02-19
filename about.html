@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>About</title>
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+  <style>
+    .content {
+        background-color: #f5f5f5;
+        padding: 60px 0;
+    }
+
+    h1 {
+        font-size: 48px;
+        font-weight: 700;
+        color: #333;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    h1 span {
+        color: #7e57c2;
+    }
+
+    .par {
+        font-size: 18px;
+        color: #666;
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+        line-height: 1.8;
+    }
+
+    .btn {
+        background-color: #7e57c2;
+        border: none;
+        border-radius: 30px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 15px 30px;
+        margin-top: 40px;
+        display: inline-block;
+        transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+        background-color: #6c48a7;
+        color: #fff;
+    }
+
+    /* added Bootstrap style */
+    header {
+        background-color: #000;
+        padding: 10px 0;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 15px;
+        transition: all 0.3s ease;
+    }
+
+    nav ul li a:hover {
+        background-color: #6c48a7;
+        color: #fff;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #000;
+        min-width: 160px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content li a {
+        color: #fff;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+  
+
+  
+ .card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  width: 500px;
+  height: 500px;
+  background-color: hsl(190, 38%, 81%);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 10px;
+  text-align: center;
+  padding: 60px;
+  margin: 10px;
+  transition: all 0.5s ease;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+h2 {
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: 18px;
+  color: #000000;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+i {
+  font-size: 24px;
+  color: #000000;
+  margin-right: 20px;
+}
+
+
+
+.fab {
+  font-size: 30px;
+  color: #0077C9;
+  margin: 0 10px;
+}
+
+i:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.card:hover {
+        transition: all 0.2s ease-in-out;
+        transform: rotateY(10deg) translateZ(20px);
+        box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    }
+
+    .card-backface {
+        backface-visibility: hidden;
+    }
+
+  </style>
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown">
+              <a href="photogallery.html">Photo Gallery</a>
+              <ul class="dropdown-content">
+                <li><a href="landscape.html">Landscape</a></li>
+                <li><a href="wedding.html">Wedding</a></li>
+                <li><a href="portrait.html">Portrait</a></li>
+              </ul>
+            </li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <h1>About Our Photography Brand</h1>
+      <div class="card-container">
+        <div class="card">
+          <h2>About Us</h2>
+          <p>We are a team of passionate photographers who believe in capturing life's precious moments through the lens of a camera.<br>
+             Our focus is to create stunning images that will make you relive the memories for years to come. <br>
+        </p>
+        </div>
+        <div class="card">
+          <h2>Our Goals</h2>
+          <p>Whether you're looking for breathtaking landscape shots, stunning portrait photography, or creative still life images, we have got you covered.<br>
+             Our love for photography and our attention to detail is evident in every shot we take. 
+        </p>
+        </div>
+        <div class="card">
+          <h2>Social Networks</h2>
+            <p>
+                Connect with us on our journey of capturing life's beauty by following us on <br><br>
+                <a href="https://www.instagram.com/respirepixel/" target="_blank"><i class="fab fa-instagram"></i></a> Instagram, 
+                <a href="https://www.facebook.com/moujib.chorfi.96" target="_blank"><i class="fab fa-facebook"></i></a> Facebook, 
+                <a href="https://www.linkedin.com/in/moujib-chorfi-436881170/" target="_blank"><i class="fab fa-linkedin"></i></a> LinkedIn<br><br><br> 
+                You can also reach out to us via email at 
+                <a href="chorfimoujib~@outlook.fr">chorfimoujib~@outlook.fr</a>
+                
+              </p>
+        </div>
+      </div>
+  <script>
+    var dropdown = document.querySelector(".dropdown");
+    var dropdownContent = document.querySelector(".dropdown-content");
+
+    dropdown.addEventListener("click", function() {
+      dropdownContent.classList.toggle("show");
+    });
+  </script>
+</body>
+</html>
